@@ -43,19 +43,6 @@ const workerConfig = {
       },
     },
     {
-      id: 'gs-network-status',
-      name: 'Green Shade Capital IMN',
-      method: 'GET',
-      target: 'https://frp.greenshadecapital.com',
-      tooltip: 'Green Shade Capital Website monitor',
-      statusPageLink: 'https://frp.greenshadecapital.com', 
-      expectedCodes: [200],
-      timeout: 10000,
-      headers: {
-        'User-Agent': 'Uptimeflare',
-      },
-    },
-    {
       id: 'gs-github-status',
       name: 'Green Shade Capital Developer',
       method: 'GET',
