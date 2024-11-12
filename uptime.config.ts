@@ -61,7 +61,7 @@ const workerConfig = {
       method: 'GET',
       target: 'https://pleuston.org',
       tooltip: 'pleuston website monitor',
-      statusPageLink: 'pleuston.org, 
+      statusPageLink: 'pleuston.org', 
       expectedCodes: [200],
       timeout: 10000,
       headers: {
