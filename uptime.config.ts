@@ -56,6 +56,19 @@ const workerConfig = {
       },
     },
     {
+      id: 'gs-imn-vpn',
+      name: 'Green Shade WireGuard Network',
+      method: 'GET',
+      target: 'https://vpn.greenshadecapital.com',
+      tooltip: 'wireguard website monitor',
+      statusPageLink: 'vpn.greenshadecapital.org', 
+      expectedCodes: [200],
+      timeout: 10000,
+      headers: {
+        'User-Agent': 'Uptimeflare',
+      },
+    },
+    {
       id: 'pleuston-website-status',
       name: 'Pleuston Website',
       method: 'GET',
